@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    background:linear-gradient(rgba(0,0,0,0.7), transparent) ;
+    text-align: center;
+    z-index: 1;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 5px 0;
+    display: inline-block;
+    margin: 15px 10px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+nav ul li a:hover{
+    color: rgb(191, 111, 215);
+    border-bottom: 3px solid rgb(191, 111, 215);
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover ;
+    padding-top: 120px;
+    display: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section .h1-black{
+    margin-left: 10vh;
+    margin-bottom: 7vh;
+    background: -webkit-linear-gradient(rgb(224, 223, 223), rgb(84, 84, 84));
+    text-shadow: -3px -3px rgba(255, 255, 255, 0.771);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+}
+
+section .h1-white{
+    margin-left: 10vh;
+    margin-bottom: 7vh;
+    background: -webkit-linear-gradient(rgb(33, 33, 33), rgb(166, 166, 166));
+    text-shadow: -3px -3px rgba(12, 12, 12, 0.779);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+}
+
+section h6{
+    margin-left: 20vh;
+    font-weight: 500;
+    width: 50%;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.814);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-h2{
+    font-size: 30pt;
+    margin-left: 20vh;
+    color: rgb(4, 4, 4);
+    text-shadow: -2px -2px rgb(170, 170, 170);
+}
+
+.black-h2:hover{
+    font-size: 35pt;
+    color: rgb(255, 0, 238);
+    text-shadow: -2px -2px rgb(170, 170, 170);
+}
+
+.black-h3{
+    margin-left: 20vh;
+    font-weight: 700;
+    width: 50%;
+    font-size: 30px;
+    color: rgb(4, 4, 4);
+    text-shadow: -2px -2px rgb(170, 170, 170);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-h5{
+    margin-left: 25vh;
+    margin-top: 0.3vh;
+    margin-bottom: 2vh;
+    
+    font-weight: 500;
+    width: 50%;
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-h3{
+    margin-left: 20vh;
+    margin-top: 2vw;
+    margin-bottom: 0.3vw;
+
+    font-weight: 700;
+    width: 50%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: -2px -2px rgba(184, 184, 184, 0.818);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-h6{
+    font-weight: 400;
+    color: white;
+}
+
+
+section .imagem{
+    margin-left: 10vh;
+    width: 20%;
+    display: inline-block;
+}
+
+.imagem-sect2{
+    position: relative;
+    left: 60%;
+    top: -70%;
+    margin-left: 10vh;
+    width: 25%;
+    display: inline-block;
+}
+
+.imagem-sect3{
+    position: absolute;
+    margin-left: 10vh;
+    top: 240%;
+    width: 20%;
+    display: inline-block;
+}
+
+.imagem-sect4{
+    margin-left: 10vh;
+    width: 20%;
+    display: inline-block;
+}
+
+.imagem-sect5{
+    width: 40%;
+    display: flex;
+    margin-left: 5vh;
+    margin: auto;
+    background-color: rgb(255, 247, 233);
+    box-shadow: 10px 10px rgb(191, 111, 215);
+}
+
+.imagem-sect6{
+    margin-left: 10vh;
+    width: 15%;
+    display: inline-block;
+}
+
+.imagem-sect7{
+    margin-left: 10vh;
+    width: 15%;
+    display: inline-block;
+}
+
+section:nth-of-type(1){
+    background: linear-gradient(rgb(45, 45, 45), rgb(20, 20, 20));
+} 
+
+section:nth-of-type(2){
+    background-color: #fff;
+    height: 100vh;
+} 
+
+section:nth-of-type(3){
+    background: linear-gradient(rgb(45, 45, 45), rgb(20, 20, 20));
+} 
+
+section:nth-of-type(4){
+    background-color: #fff;
+} 
+
+section:nth-of-type(5){
+    background: linear-gradient(rgb(45, 45, 45), rgb(20, 20, 20));
+    height: 110vh;
+} 
+
+section:nth-of-type(6){
+    background-color: #fff;
+} 
+
+section:nth-of-type(7){
+    background: linear-gradient(rgb(45, 45, 45), rgb(20, 20, 20));
+} 
+
+section:nth-of-type(8){
+    background-color: #fff;
+} 
